@@ -1,72 +1,73 @@
 /*
-Package alunos È o package que foi criado dentro do src, e alunos È o nome dele
-se importa ele para dizer onde essa pasta est· localizada, j· que o projeto pode
-ter v·rias pastas com v·rios cÛdigos.
+Package alunos √© o package que foi criado dentro do src, e alunos √© o nome dele
+se importa ele para dizer onde essa pasta est√° localizada, j√° que o projeto pode
+ter v√°rias pastas com v√°rios c√≥digos.
  */
 package alunos;
 
 /*
-Main È o nome da classe ( nome do arquivo criado ), ele n„o pode ser main com letra minuscula
-porque ir· dar conflito com o mÈtodo main, sempre iniciar nome de classe com letra mai˙sucla
+Main √© o nome da classe ( nome do arquivo criado ), ele n√£o pode ser main com letra minuscula
+porque ir√° dar conflito com o m√©todo main, sempre iniciar nome de classe com letra mai√∫sucla
  */
 public class Main {
     /*
-    MÈtodo main, o mÈtodo que inicia todo o programa a ser executado
-    Ele nunca mudar· de nome, pois o main n„o È o nome da sua classe, e sim o nome do mÈtodo
+    M√©todo main, o m√©todo que inicia todo o programa a ser executado
+    Ele nunca mudar√° de nome, pois o main n√£o √© o nome da sua classe, e sim o nome do m√©todo
+    static significa que pode ser chamado em qualquer lugar
      */
     public static void main(String[] args) {
         /**************************** Hello World *******************************/
         /*
-        System.out.println È o mÈtodo para printar frases, variaveis, etc no console
+        System.out.println √© o m√©todo para printar frases, variaveis, etc no console
         Usado para debugar programas.
-        O println pular· uma linha, j· sÛ o print sÛ ir· printar tudo na mesma linha
-        Ent„o cuidado com qual ir· usar
+        O println pular√° uma linha, j√° s√≥ o print s√≥ ir√° printar tudo na mesma linha
+        Ent√£o cuidado com qual ir√° usar
          */
         System.out.println("Hello World");
 
         /**********************************************************/
 
-        /**************************** Vari·veis em Java *******************************/
+        /**************************** Vari√°veis em Java *******************************/
         /*
         Assim se escreve uma variavel em java
-        Onde primeiro ser· o tipo da vari·vel, podendo ser, int, float, double, boolean, string, arrays, etc
-        Depois vem o nome da variavel que no caso est· como idade.
-        E por ultimo vem o valor, que È atribuido atravÈs do sinal: = : que È o sinal que atribui o valor a vari·vel.
+        Onde primeiro ser√° o tipo da vari√°vel, podendo ser, int, float, double, boolean, string, arrays, etc
+        Depois vem o nome da variavel que no caso est√° como idade.
+        E por ultimo vem o valor, que √© atribuido atrav√©s do sinal: = : que √© o sinal que atribui o valor a vari√°vel.
          */
         int idade = 24;
         /*
-        Abaixo est· sendo concatenado uma frase com uma vari·vel, concatenar È juntar uma vari·vel com uma frase
-        que È feito usando o operador: +
+        Abaixo est√° sendo concatenado uma frase com uma vari√°vel, concatenar √© juntar uma vari√°vel com uma frase
+        que √© feito usando o operador: +
          */
-        System.out.println("Minha idade È " + idade + " anos");
+        System.out.println("Minha idade √© " + idade + " anos");
 
         /**********************************************************/
 
-        /**************************** Tipos de Vari·veis *******************************/
+        /**************************** Tipos de Vari√°veis *******************************/
 
-        // As vari·veis podem ser alteradas em qualquer parte do seu cÛdigo //
+        // As vari√°veis podem ser alteradas em qualquer parte do seu c√≥digo //
 
-        // Int È um tipo que guarda sÛ numeros inteiros, seja negativo ou positivo, e o valor tem que ir sem aspas
+        // Int √© um tipo que guarda s√≥ numeros inteiros, seja negativo ou positivo, e o valor tem que ir sem aspas
         int numero = 2400000;
 
-        // String È um tipo que guarda frases, qualquer tamanho, e o valor precisa ir dentro de aspas duplas
-        String frase = "Ol· mundo";
+        // String √© um tipo que guarda frases, qualquer tamanho, e o valor precisa ir dentro de aspas duplas
+        String frase = "Ol√° mundo";
 
-        // Boolean È o tipo que pode ser true ou false, serve para condicionais, e seu valor deve ser escrito sem aspas
+        // Boolean √© o tipo que pode ser true ou false, serve para condicionais, e seu valor deve ser escrito sem aspas
         boolean condicao = true;
 
-        // Char È um tipo que guarda sÛ um caracter, e seu valor precisa ir com aspas simples
+        // Char √© um tipo que guarda s√≥ um caracter, e seu valor precisa ir com aspas simples
         char caracter = 'a';
 
         /*
-        Double È um tipo que guarda um n˙mero com ponto flutuante com bastante precis„o,
+        Double √© um tipo que guarda um n√∫mero com ponto flutuante com bastante precis√£o,
         e seu valor precisa ir sem aspas e com ponto separando as casas decimais
         */
         double numeroDouble = 24.9;
 
         /*
-        Float È um tipo que guarda um n˙mero com ponto flutuante com precis„o, mas menos precis„o que Double,
-        e seu valor precisa ir sem aspas e com ponto separando as casas decimais e com "f" atr·s para simbolizar o float
+        Float √© um tipo que guarda um n√∫mero com ponto flutuante com precis√£o, mas menos precis√£o que Double,
+        e seu valor precisa ir sem aspas e com ponto separando as casas decimais e com "f" atr√°s para simbolizar o float
         */
         float numeroFloat = 3.9f;
 
@@ -81,11 +82,11 @@ public class Main {
 
         /**************************** Constantes *******************************/
 
-        // Constantes se define o valor uma vez e n„o pode ser mais alterado em lugar algum
+        // Constantes se define o valor uma vez e n√£o pode ser mais alterado em lugar algum
 
         /*
         Para se declarar uma constante precisa ser adicionado a palavra reservada: final
-        antes do tipo da vari·vel, assim ela n„o poder· ser mais mudada durante o cÛdigo
+        antes do tipo da vari√°vel, assim ela n√£o poder√° ser mais mudada durante o c√≥digo
          */
         final double PI = 3.1416;
 
@@ -95,105 +96,105 @@ public class Main {
 
         /**************************** Arrays *******************************/
 
-        // S„o estruturas de dados que armazena uma coleÁ„o de elementos, podendo ser acessados atravÈs de indices
-        // Lembre-se o Ìndice sempre inicia em zero.
+        // S√£o estruturas de dados que armazena uma cole√ß√£o de elementos, podendo ser acessados atrav√©s de indices
+        // Lembre-se o √≠ndice sempre inicia em zero.
 
         /*
-        Para se declarar um array, primeiro precisa colocar o tipo da vari·vel,
+        Para se declarar um array, primeiro precisa colocar o tipo da vari√°vel,
         depois um [] para que possa ser intentificado como Array, e depois o nome da
-        vari·vel, e apÛs isso ela precisa ser instanciada ( ser· visto melhor esse termo no mÛdulo posterior)
-        Assim criando o array, e nessa instanciaÁ„o que È o: new String[5] dentro do colchetes vai o n˙mero total
-        de elementos que esse array ter·, iniciando do 0, ou seja: 0 1 2 3 4.. È um array com 5 elementos.
+        vari√°vel, e ap√≥s isso ela precisa ser instanciada ( ser√° visto melhor esse termo no m√≥dulo posterior)
+        Assim criando o array, e nessa instancia√ß√£o que √© o: new String[5] dentro do colchetes vai o n√∫mero total
+        de elementos que esse array ter√°, iniciando do 0, ou seja: 0 1 2 3 4.. √© um array com 5 elementos.
          */
         String[] nome = new String[5];
 
         /*
         Aqui estamos escrevendo o nome Guilherme e adicionando no primeiro indice, acessando
-        ele com o nome da vari·vel e o primeiro indice do array que È zero.
-        E depois adicionando Jo„o no inidice 1 do array.
+        ele com o nome da vari√°vel e o primeiro indice do array que √© zero.
+        E depois adicionando Jo√£o no inidice 1 do array.
 
         Ai temos um array simples
          */
         nome[0] = "Guilherme";
-        nome[1] = "Jo„o";
+        nome[1] = "Jo√£o";
 
         // Se acessa assim para imprimir o primeiro nome
-        System.out.println("Meu nome È " + nome[0]);
+        System.out.println("Meu nome √© " + nome[0]);
 
         /* Array Multidimenciona
         Array multidimencional funciona como uma matriz
         Por exemplo uma tabela do excel, que tem colunas e linhas
-        Tem a mesma funÁ„o que o array simples, sÛ que com muito mais espaÁo e ordenada como uma matriz
+        Tem a mesma fun√ß√£o que o array simples, s√≥ que com muito mais espa√ßo e ordenada como uma matriz
          */
 
         /*
-        Para criar um array multidimencional se faz igual ao um array simples sÛ que se adiciona
-        String [][] pois ser· um array com duas dimensıes, poderia ser
-        String [][][] e ai seria um array com 3 dimensıes
+        Para criar um array multidimencional se faz igual ao um array simples s√≥ que se adiciona
+        String [][] pois ser√° um array com duas dimens√µes, poderia ser
+        String [][][] e ai seria um array com 3 dimens√µes
         Aqui temos um array com 5 elementos e mais 5 elementos
          */
         String[][] nome1 = new String[5][5];
 
         /*
-        Aqui estamos acessando o primeiro Ìndice, n„o esquecendo que agora È preciso
-        colocar dois [][] e assim dizendo que È no Ìndice 0
+        Aqui estamos acessando o primeiro √≠ndice, n√£o esquecendo que agora √© preciso
+        colocar dois [][] e assim dizendo que √© no √≠ndice 0
         E o outro no indice 1.
          */
         nome1[0][0] = "Guilherme";
-        nome1[0][1] = "Jo„o";
+        nome1[0][1] = "Jo√£o";
 
         /*
         para imprimir no console se usa assim
          */
-        System.out.println("Meu nome È " + nome1[0][1]);
+        System.out.println("Meu nome √© " + nome1[0][1]);
 
-        /**************************** CondiÁıes *******************************/
+        /**************************** Condi√ß√µes *******************************/
 
         /*
-        Condicionais s„o utilizadas a todo tempo em programas, para definir o que o
-        programa far· SE algo acontecer.
-        S„o como rotas que ser„o traÁadas, se algo acontecer ir· para outro lado e assim
+        Condicionais s√£o utilizadas a todo tempo em programas, para definir o que o
+        programa far√° SE algo acontecer.
+        S√£o como rotas que ser√£o tra√ßadas, se algo acontecer ir√° para outro lado e assim
         por diante
          */
 
         int vida = 100;
 
         /*
-        O if traduzindo para o portuguÍs significa SE, ou seja
-        SE algo acontecer ir· fazer isso
-        Para entrar na condicional if a express„o dentro dele precisa ser verdadeira, pois SENAO
-        ir· passar para o ELSE
+        O if traduzindo para o portugu√™s significa SE, ou seja
+        SE algo acontecer ir√° fazer isso
+        Para entrar na condicional if a express√£o dentro dele precisa ser verdadeira, pois SENAO
+        ir√° passar para o ELSE
 
-        *Obs: o operador == È um operador de igualdade e o += est· somando e atribuindo 100 a vari·vel vida
+        *Obs: o operador == √© um operador de igualdade e o += est√° somando e atribuindo 100 a vari√°vel vida
 
-        Aqui dir· SE vida for IGUAL a 100 ir· entrar ali na condiÁ„o
-        e ir· adicionar mais 100 na vari·vel vida e ir· imprimir no console a vari·vel vida
+        Aqui dir√° SE vida for IGUAL a 100 ir√° entrar ali na condi√ß√£o
+        e ir√° adicionar mais 100 na vari√°vel vida e ir√° imprimir no console a vari√°vel vida
          */
         if(vida == 100){
             vida += 100;
 
-            System.out.println("Minha vida È igual a 100!");
+            System.out.println("Minha vida √© igual a 100!");
         /*
-            O else, traduzindo para o portugÍs significa SENAO,
-            ou seja SE vida n„o for IGUAL a 100, ir· printar no console
+            O else, traduzindo para o portug√™s significa SENAO,
+            ou seja SE vida n√£o for IGUAL a 100, ir√° printar no console
             a frase definida ali embaixo
         */
         }else{
-            System.out.println("Minha vida n„o È igual a 100!");
+            System.out.println("Minha vida n√£o √© igual a 100!");
         }
 
         /*
-        Operadores que podem ter dentro do if para comparaÁıes de tipos de vari·veis numÈricas
+        Operadores que podem ter dentro do if para compara√ß√µes de tipos de vari√°veis num√©ricas
 
         < Menor
         > Maior
-        <= Menor ou igual ·
-        >= Maior ou igual ·
+        <= Menor ou igual √°
+        >= Maior ou igual √°
         == Igual
         != Diferente
          */
 
-        // Para vari·veis do tipo string sÛ pode ser usado a igualdade ou Diferente
+        // Para vari√°veis do tipo string s√≥ pode ser usado a igualdade ou Diferente
 
         String novoNome = "Guilherme";
 
@@ -203,7 +204,7 @@ public class Main {
         O else if significa SENAO SE
 
         pode ter quantos else if quiser mas cuidado, pois o else if precisa ir depois do if e antes do else
-        o ELSE precisa ser sempre o ultimo, ou n„o precisa ter ELSE
+        o ELSE precisa ser sempre o ultimo, ou n√£o precisa ter ELSE
          */
         }else if(novoNome == "Felipe"){
             System.out.println("Nome igual a " + novoNome);
@@ -214,65 +215,65 @@ public class Main {
         boolean variavelBool = true;
 
         /*
-        Quando se tem sÛ uma instruÁ„o dentro do if, pode ser feito
-        sem adicionar as chaves, para mais de uma instruÁ„o precisa da chave
+        Quando se tem s√≥ uma instru√ß√£o dentro do if, pode ser feito
+        sem adicionar as chaves, para mais de uma instru√ß√£o precisa da chave
          */
         if(variavelBool)
-            System.out.println("A vari·velBool È " + variavelBool);
+            System.out.println("A vari√°velBool √© " + variavelBool);
         else
-            System.out.println("A vari·velBool È " + variavelBool);
+            System.out.println("A vari√°velBool √© " + variavelBool);
 
         /**********************************************************/
 
         /**************************** Switch e case *******************************/
 
         /*
-        O switch case È uma condicional para testar v·rios valores com mais rapidez
-        e escrevendo menos cÛdigo que no if
-        Mais a diferenÁa dele para o if È que dentro do switch n„o pode ir expressıes, ele
-        sÛ testar· vari·veis, j· o if testa expressıes complexas
+        O switch case √© uma condicional para testar v√°rios valores com mais rapidez
+        e escrevendo menos c√≥digo que no if
+        Mais a diferen√ßa dele para o if √© que dentro do switch n√£o pode ir express√µes, ele
+        s√≥ testar√° vari√°veis, j√° o if testa express√µes complexas
 
-        Dentro do switch vai a vari·vel a ser testada, sendo booleana, do tipo numÈrio, ou tipo string ou char.
+        Dentro do switch vai a vari√°vel a ser testada, sendo booleana, do tipo num√©rio, ou tipo string ou char.
         E dai no case vai testar os valores
-        Usa-se o break para que o programa n„o de erro na execuÁ„o, assim quando der break
-        o programa ir· parar na condiÁ„o que ja der correto, se n„o ele poder·
-        testar cada condiÁ„o e deixar o programa lento ou dar bug
+        Usa-se o break para que o programa n√£o de erro na execu√ß√£o, assim quando der break
+        o programa ir√° parar na condi√ß√£o que ja der correto, se n√£o ele poder√°
+        testar cada condi√ß√£o e deixar o programa lento ou dar bug
          */
 
         int vida2 = 100;
 
         switch (vida2){
-            // CASO vida2 sej· igual a 100
+            // CASO vida2 sej√° igual a 100
             case 100:
-                // Far· isso daqui
-                System.out.println("Vari·vel vida2 È " + vida2);
-                // Break para quebrar a execuÁ„o
+                // Far√° isso daqui
+                System.out.println("Vari√°vel vida2 √© " + vida2);
+                // Break para quebrar a execu√ß√£o
                 break;
             case 200:
-                System.out.println("Vari·vel vida2 È " + vida2);
+                System.out.println("Vari√°vel vida2 √© " + vida2);
                 break;
             case 400:
-                System.out.println("Vari·vel vida2 È " + vida2);
+                System.out.println("Vari√°vel vida2 √© " + vida2);
                 break;
         }
 
         /**********************************************************/
 
-        /*********** Operacoes avanÁadas e operaÁıes matem·ticas ***********************/
+        /*********** Operacoes avan√ßadas e opera√ß√µes matem√°ticas ***********************/
 
         /*
-        Dentro de programas podemos fazer operaÁıes matem·ticas como
+        Dentro de programas podemos fazer opera√ß√µes matem√°ticas como
         Somar, dividir, multiplicar, subtrair e entre outras
-        E tambÈm veremos operadores para comparaÁıes, e para fazer expressıes mais complexas
+        E tamb√©m veremos operadores para compara√ß√µes, e para fazer express√µes mais complexas
 
         + Mais
         - Menos
         * Multiplicar
         / Dividir
-        % MÛdulo ( Pouco usado )
+        % M√≥dulo ( Pouco usado )
 
-        && E ( AND ) Teclas: Shift + 7 ( teclado n˙merico a cima das letras )
-        || OU ( OR ) Teclas: shift + \ ( Barra invertida est· do lado do shift esquerdo do seu teclado )
+        && E ( AND ) Teclas: Shift + 7 ( teclado n√∫merico a cima das letras )
+        || OU ( OR ) Teclas: shift + \ ( Barra invertida est√° do lado do shift esquerdo do seu teclado )
         == Igual
         != Diferente
          */
@@ -281,23 +282,23 @@ public class Main {
         int vida_2 = 200;
         int vida_3 = 300;
 
-        // Aqui podemos guardar o resultado de uma operaÁ„o matem·tica
+        // Aqui podemos guardar o resultado de uma opera√ß√£o matem√°tica
         int vida_final = vida_1 + vida_2 + vida_3;
         /*
-        Aqui o operador mais n„o servir· para concatenar e sim para fazer a soma
-        dos valores das vari·veis, pois o computador j· percebe que s„o valores numÈricos
+        Aqui o operador mais n√£o servir√° para concatenar e sim para fazer a soma
+        dos valores das vari√°veis, pois o computador j√° percebe que s√£o valores num√©ricos
          */
 
         System.out.println(vida_1 + vida_2 + vida_3);
 
-        // Exibindo a vari·vel vida_final contendo a soma das vidas
+        // Exibindo a vari√°vel vida_final contendo a soma das vidas
         System.out.println(vida_final);
 
         /*
-        Como na matem·tica, dentro de um programa se queremos que algo seja
-        calculado antes, nÛs usaremos parÍnteses como È mostrado abaixo
-        Assim o que est· em parÍnteses ser· calculado antes, e apÛs isso ser· feito o que
-        est· fora dele
+        Como na matem√°tica, dentro de um programa se queremos que algo seja
+        calculado antes, n√≥s usaremos par√™nteses como √© mostrado abaixo
+        Assim o que est√° em par√™nteses ser√° calculado antes, e ap√≥s isso ser√° feito o que
+        est√° fora dele
          */
         int vida_final2 = (vida_1 + vida_2) / 2;
         System.out.println(vida_final2);
@@ -307,9 +308,9 @@ public class Main {
         int skill = 100;
 
         /*
-        A condiÁ„o se lÍ assim:
+        A condi√ß√£o se l√™ assim:
         SE (nome_jogador for IGUAL a Guilherme E skill for IGUAL a 100 ) E skill for MENOR OU IGUAL a 90
-        faÁa a instruÁ„o abaixo
+        fa√ßa a instru√ß√£o abaixo
          */
         if((nome_jogador == "Guilherme" && skill == 100) && skill <= 90){
             System.out.println("Verdade");
@@ -318,16 +319,16 @@ public class Main {
         }
 
         /*
-        Se (nome_jogador for IGUAL a Guilherme OU nome_jogador for IGUAL Jo„o) E skill for MAIOR OU IGUAL a 100
-        faÁa a seguinte instruÁ„o
+        Se (nome_jogador for IGUAL a Guilherme OU nome_jogador for IGUAL Jo√£o) E skill for MAIOR OU IGUAL a 100
+        fa√ßa a seguinte instru√ß√£o
          */
-        if((nome_jogador == "Guilherme" || nome_jogador == "Jo„o") &&
+        if((nome_jogador == "Guilherme" || nome_jogador == "Jo√£o") &&
                 skill >= 100){
             System.out.println("Comece o jogo");
         }
 
         /*
-        Imagem de resumo dos operadores est„o colocados na tabela na imagem que tem para download
+        Imagem de resumo dos operadores est√£o colocados na tabela na imagem que tem para download
          */
 
         /**********************************************************/
@@ -335,73 +336,73 @@ public class Main {
         /**************************** Looping *******************************/
 
         /*
-        Loopings s„o utilizado para gerar uma aÁ„o lÛgica atÈ ou enquanto algo for de tal jeito.
-        Temos os loop FOR, WHILE, DO WHILE e outros mais complexos, mas esses s„o os principais e mais
+        Loopings s√£o utilizado para gerar uma a√ß√£o l√≥gica at√© ou enquanto algo for de tal jeito.
+        Temos os loop FOR, WHILE, DO WHILE e outros mais complexos, mas esses s√£o os principais e mais
         usados.
-        Com eles È possÌvel percorrer um array, e fazer outras diversas aÁıes.
+        Com eles √© poss√≠vel percorrer um array, e fazer outras diversas a√ß√µes.
          */
 
         /*
-        Variavel que ir· servidor para incrementar o WHILE
-        vari·vel muito importante, pois se n„o tiver ela
-        o loop ir· executar infinitamente, e poder· travar o seu computador ou
+        Variavel que ir√° servidor para incrementar o WHILE
+        vari√°vel muito importante, pois se n√£o tiver ela
+        o loop ir√° executar infinitamente, e poder√° travar o seu computador ou
         computador da outra pessoa.
-        Ent„o cuidado para sempre usar uma vari·vel para incrementar dentro do while
+        Ent√£o cuidado para sempre usar uma vari√°vel para incrementar dentro do while
          */
         int contador = 0;
 
         /*
-        O WHILE traduzindo para o portugÍs significa ENQUANTO
-        ou seja, ENQUANTO algo for de tal jeito, ele ir· executar tal coisa
-        Quanto a express„o for falsa ele sair· do loop e continuar· executando outras instruÁıes.
+        O WHILE traduzindo para o portug√™s significa ENQUANTO
+        ou seja, ENQUANTO algo for de tal jeito, ele ir√° executar tal coisa
+        Quanto a express√£o for falsa ele sair√° do loop e continuar√° executando outras instru√ß√µes.
          */
         while(contador < 10){
-            /* Aqui ir· exibir a Ol· 9 vezes, porque quando for 10 ele j· n„o ser· mais menor
-            que 10 e por isso ir· sair do loop.
+            /* Aqui ir√° exibir a Ol√° 9 vezes, porque quando for 10 ele j√° n√£o ser√° mais menor
+            que 10 e por isso ir√° sair do loop.
             Para executar 10 vezes, precisa colocar:  contador <= 10
             */
-            System.out.println("Ol·! , agora o contador est· em: " + contador);
+            System.out.println("Ol√°! , agora o contador est√° em: " + contador);
 
             /*
-            Vari·vel sendo incrementada
-            Quando se coloca ++ atr·s de uma vari·vel do tipo numÈrica,
-            ela ir· adicionar mais 1 na vari·vel o mesmo acontece com o --,
-            sÛ que ai ir· decrementar 1 da vari·vel.
+            Vari√°vel sendo incrementada
+            Quando se coloca ++ atr√°s de uma vari√°vel do tipo num√©rica,
+            ela ir√° adicionar mais 1 na vari√°vel o mesmo acontece com o --,
+            s√≥ que ai ir√° decrementar 1 da vari√°vel.
              */
             contador++;
         }
 
         /*
-        O loop for È o mais usado para desenvolvimento, pois com ele n„o precisa
-        se preocupar de n„o colocar a vari·vel incrementadora para n„o travar,
-        pois em seu corpo ele j· traz ela.
-        O for significa em programaÁ„o: FA«A AT….
+        O loop for √© o mais usado para desenvolvimento, pois com ele n√£o precisa
+        se preocupar de n√£o colocar a vari√°vel incrementadora para n√£o travar,
+        pois em seu corpo ele j√° traz ela.
+        O for significa em programa√ß√£o: FA√áA AT√â.
 
-        O for È constituido de 3 fases separadas por ponto e vÌrgula
-        A primeira: int i = 0 -> Essa fase È onde se cria a vari·vel e atribui um valor a ela
-        A segunda: i <= 10 -> … a express„o que o loop ter· que fazer atÈ ser falso e sair do loop.
-        A terceira: È a vari·vel que foi criada sendo incrementada ou se preferir, pode ser
-        decrementada, assim fazendo a condiÁ„o do for ser falsa, e saindo do loop
+        O for √© constituido de 3 fases separadas por ponto e v√≠rgula
+        A primeira: int i = 0 -> Essa fase √© onde se cria a vari√°vel e atribui um valor a ela
+        A segunda: i <= 10 -> √â a express√£o que o loop ter√° que fazer at√© ser falso e sair do loop.
+        A terceira: √© a vari√°vel que foi criada sendo incrementada ou se preferir, pode ser
+        decrementada, assim fazendo a condi√ß√£o do for ser falsa, e saindo do loop
          */
         for(int i = 0; i <= 10; i++){
-            System.out.println("Ol·! , agora o contador est· em: " + i);
+            System.out.println("Ol√°! , agora o contador est√° em: " + i);
         }
 
         /*
-        O DO WHILE È um loop bem pouco usado, usado raramente, pois o while e o for
-        j· consegue fazer 99% das coisas, e tambÈm por ser um loop um pouco mais complexo de se entender
+        O DO WHILE √© um loop bem pouco usado, usado raramente, pois o while e o for
+        j√° consegue fazer 99% das coisas, e tamb√©m por ser um loop um pouco mais complexo de se entender
         e aplicar.
 
-        O DO ir· executar a instruÁ„o e sÛ depois ir· entrar na verificaÁ„o que È o WHILE
-        por isso ele sempre ir· executar uma vez, e se n„o apssar na verificaÁ„o ele sai do loop
-        DO significa FA«A
+        O DO ir√° executar a instru√ß√£o e s√≥ depois ir√° entrar na verifica√ß√£o que √© o WHILE
+        por isso ele sempre ir√° executar uma vez, e se n√£o apssar na verifica√ß√£o ele sai do loop
+        DO significa FA√áA
         e o WHILE significa ENQUANTO
          */
 
         int contador1 = 0;
         do{
             System.out.println(contador1);
-            // N„o esqueÁa de incrementar
+            // N√£o esque√ßa de incrementar
             contador1++;
         }while(contador < 3);
 
