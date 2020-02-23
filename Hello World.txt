@@ -1,0 +1,32 @@
+Java
+
+public static void main(String[] args){
+    System.out.println("Hello World");
+}
+
+C
+
+#include<stdio.h>
+int main(void){
+printf("Hello World\n");
+}
+
+C++
+
+#include<iostream>
+int main(){
+std::cout<<"Hello World\n" 
+return 0;
+}
+
+PHP
+
+<?php
+echo "Hello World";
+?>
+
+JavaScript
+
+<script>
+console.log("Hello World");
+</script>
