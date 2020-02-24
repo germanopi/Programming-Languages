@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css"> 
+		.filho{
+			width:500px;
+			height:500px;
+			border:1px solid black;
+		}
+		.filho-do-filho{
+			width:0;
+			background:purple;
+			height:100px;	
+		}
+		.header{
+			width: 100%;
+			height: 50px;
+			border: 2px solid black;
+		}
+	</style>
+</head>
+<body>
+<div class ="header"></div>
+<div class="pai">
+	<div class="filho">
+		
+	</div>
+	<div class="filho">
+		
+	</div>
+	<div class="filho">
+		<div class="filho-do-filho"></div>
+	</div>
+	<div class="filho">
+		<div class="filho-do-filho animar"></div>
+	</div>
+	<div class="filho">
+		
+	</div>
+	<div class="filho">
+		
+	</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script>
+	// Verify if exist a element son
+	// Verify is exist a class x on son , if true apply height
+	$(function() {
+		$('.pai .filho').each(function(){
+			var obj = $(this).find('.filho-do-filho');
+			if(obj.length>0){
+				if(obj.hasClass('animar')){
+					obj.animate({width:'100px'},3000,function(){
+						console.log("Finished");
+					});
+				}
+			}
+		})
+	})
+</script>
+<script>
+	var menssage="Hello World"; // Create a variable
+	console.log (menssage); // Print on console
+	// Aplly red color on odd numbers elements
+	$(function() {
+		var index=0;
+		$('.pai .filho').each(function(){
+			if(index%2==1){
+				$(this).css('background','red');
+			}
+			index++;
+		})
+	})
+</script>
+<script>
+	// Aplly color based on window width
+	$(function() {
+	function verificaTamanhoAplicaCor(){
+		var tamanhoTela=$(window).width();
+		if(tamanhoTela<768){
+			$('.header').css('background','red');
+		}else if(tamanhoTela<1024){
+			$('.header').css('background','green');
+		}
+	}
+		setInterval(function(){
+			verificaTamanhoAplicaCor();
+		},3000)
+	})
+</script>
+</body>
+</html>
